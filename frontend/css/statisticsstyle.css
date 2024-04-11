@@ -1,0 +1,71 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+/* Header styles */
+header {
+    background-color: #232f3e;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.header-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Content container */
+.statistics-container {
+    background: #fff;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #3498db;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Statistics styles */
+.statistics {
+    text-align: left;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Responsive design for smaller screens */
+@media screen and (max-width: 600px) {
+    .statistics-container {
+        max-width: 95%;
+    }
+
+    table {
+        margin-top: 10px;
+    }
+}

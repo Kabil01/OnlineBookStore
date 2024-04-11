@@ -1,0 +1,51 @@
+/* CSS for the table */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    
+    font-size: 16px;
+}
+
+th, td {
+    border: 2px solid #333; /* Smooth borders */
+    padding: 15px;
+    text-align: left;
+}
+
+th {
+    background-color: #333; /* Header background color */
+    color: #fff; /* Header text color */
+}
+
+/* Style for the "Pending" and "Accepted" status */
+td:contains("Pending") {
+    color: #ff6600; /* Custom color for "Pending" */
+    font-weight: bold;
+}
+
+td:contains("Accepted") {
+    color: #00cc66; /* Custom color for "Accepted" */
+    font-weight: bold;
+}
+
+td:contains("Rejected") {
+    color: #ff3333; /* Custom color for "Rejected" */
+    font-weight: bold;
+}
+
+/* Style for the action buttons */
+select, input[type="submit"] {
+    background-color: #3498db; /* Button background color */
+    color: white; /* Button text color */
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+/* Hover effect for action buttons */
+select:hover, input[type="submit"]:hover {
+    background-color: #4CAF50; /* Hover background color */
+    transform: scale(1.05); /* Slight scale effect on hover */
+}

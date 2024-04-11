@@ -1,0 +1,57 @@
+/* Center the form on the page */
+.edit-profile-content {
+    justify-content: center;
+	align-items: center;
+    min-height: 100vh;
+}
+
+/* Style for the form */
+.edit-profile-form {
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px; /* Adjust the width as needed */
+    /* Cent5r the form horizontally */
+    margin: 0 auto;
+}
+
+.form-title {
+    text-align: center;
+    font-size: 24px;
+}
+
+.form-group {
+    margin: 10px 0;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+}
+
+.form-group input {
+    width: 94%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group input[type="password"] {
+    font-family: 'Arial', sans-serif;
+}
+
+.form-submit {
+    background-color: #0078D7;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.form-submit:hover {
+    background-color: #005bb5;
+}
